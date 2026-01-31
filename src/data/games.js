@@ -219,7 +219,7 @@ export const games = [
   }
 ]
 
-/// Site-wide SEO data
+// Site-wide SEO data
 export const siteData = {
   siteName: 'Anti Brain Rot Games',
   tagline: 'Free Games That Actually Make You Smarter',
