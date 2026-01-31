@@ -235,18 +235,5 @@ export const games = [
 
 // Site-wide SEO data
 export const siteData = {
-  siteName: 'Brain Busters',
-  tagline: 'Free Online Brain Training Games',
-  siteUrl: 'https://games.muthu.co',
-  description: 'Play free online puzzle games including Sudoku, Minesweeper, Tic Tac Toe, and more. Train your brain with our collection of logic and strategy games.',
-  author: {
-    name: 'Muthukrishnan',
-    twitter: '@krimuthu',
-    github: 'muthuspark'
-  },
-  social: {
-    twitter: 'https://twitter.com/krimuthu',
-    github: 'https://github.com/muthuspark/javascript-games',
-    linkedin: 'https://linkedin.com/in/krimuthu'
   }
 }
