@@ -205,22 +205,8 @@ export const games = [
     slug: 'binary-puzzle',
     title: 'Binary Puzzle (Takuzu) - Logic Number Game',
     shortTitle: 'Binary Puzzle',
-    description: 'Play Binary Puzzle (Takuzu) online for free. Fill the grid with 0s and 1s following simple rules. A challenging logic puzzle that trains your brain.',export const siteData = {
-  siteName: 'Anti Brain Rot Games',
-  tagline: 'Free Games That Actually Make You Smarter',
-  siteUrl: 'https://diptych-byte.github.io/memory-match-game/',
-  description: 'Stop the scroll. Play free puzzle and brain games including Memory Match, Sudoku, Tic Tac Toe, and more. Train your brain while having fun.',
-  author: {
-    name: 'Yazeed',
-    twitter: '',
-    github: 'diptych-byte'
-  },
-  social: {
-    twitter: '',
-    github: 'https://github.com/diptych-byte/memory-match-game',
-    linkedin: ''
-  }
-}    thumbnail: 'thumbnail.png',
+    description: 'Play Binary Puzzle (Takuzu) online for free. Fill the grid with 0s and 1s following simple rules. A challenging logic puzzle that trains your brain.',
+    thumbnail: 'thumbnail.png',
     categories: ['Puzzles', 'Logic Games', 'Number Games']
   },
   {
