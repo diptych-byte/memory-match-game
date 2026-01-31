@@ -2,7 +2,7 @@ import { useHead } from '@unhead/vue'
 import { siteData } from '../data/games.js'
 
 export function useGameSeo(game) {
-  const pageTitle = `${game.title} - Play Free Online | Brain Busters`
+  const pageTitle = `${game.title} - Play Free Online | Anti Brain Rot Games`
   const pageUrl = `${siteData.siteUrl}/posts/${game.slug}/`
   const imageUrl = `${siteData.siteUrl}/posts/${game.slug}/thumbnail.png`
 
@@ -30,7 +30,7 @@ export function useGameSeo(game) {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Brain Busters"
+      "name": "Anti Brain Rot Games"
     }
   }
 

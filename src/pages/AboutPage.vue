@@ -7,7 +7,7 @@
           <div class="profile-section">
             <img
               src="/profile.png"
-              alt="Muthukrishnan - Creator of Brain Busters"
+              alt="Yazeed - Creator of Anti Brain Rot Games"
               class="profile-img"
               width="120"
               height="120"
@@ -15,7 +15,7 @@
               itemprop="image"
             >
             <div class="profile-info">
-              <h1 itemprop="name">Muthukrishnan</h1>
+              <h1 itemprop="name">Yazeed</h1>
               <p class="tagline" itemprop="description">
                 Software Engineer, Researcher and Author
               </p>
@@ -54,7 +54,7 @@
           <h2 id="bio-heading" class="visually-hidden">Biography</h2>
 
           <div itemprop="mainContentOfPage">
-            <p>I'm <strong itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Muthukrishnan</span></strong>, currently working as an Engineering Manager at Sanas AI Inc. I have over 16 years of experience in building scalable SaaS applications from the ground up.</p>
+            <p>I'm <strong itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Yazeed</span></strong>, currently working as an Engineering Manager at Sanas AI Inc. I have over 16 years of experience in building scalable SaaS applications from the ground up.</p>
 
             <p>As a hands-on leader, I've built and scaled applications that have grown from hundreds of users to millions, and I have filed about five patents covering technologies from OCR to cross-application walkthroughs.</p>
 
@@ -66,7 +66,7 @@
             </div>
 
             <div class="info-block">
-              <h3>Why Brain Busters?</h3>
+              <h3>Why Anti Brain Rot Games?</h3>
               <p>A passion project combining my love of programming with classic puzzle games. Built with vanilla JavaScript to demonstrate that engaging experiences don't require heavy frameworks.</p>
             </div>
 
@@ -83,18 +83,18 @@ import { useHead } from '@unhead/vue'
 import { siteData } from '../data/games.js'
 
 useHead({
-  title: 'About Muthukrishnan - Creator of Brain Busters | Engineering Manager',
+  title: 'About Yazeed - Creator of Anti Brain Rot Games | Engineering Manager',
   meta: [
-    { name: 'description', content: 'Learn about Muthukrishnan, the creator of Brain Busters puzzle games. Engineering Manager with 16+ years experience building scalable SaaS applications and 5 patents.' },
-    { name: 'keywords', content: 'Muthukrishnan, Brain Busters creator, engineering manager, software architect, puzzle game developer' },
-    { property: 'og:title', content: 'About the Creator - Brain Busters' },
-    { property: 'og:description', content: 'Meet Muthukrishnan, Engineering Manager and creator of Brain Busters free online puzzle games.' },
+    { name: 'description', content: 'Learn about Yazeed, the creator of Anti Brain Rot Games puzzle games. Engineering Manager with 16+ years experience building scalable SaaS applications and 5 patents.' },
+    { name: 'keywords', content: 'Yazeed, Anti Brain Rot Games creator, engineering manager, software architect, puzzle game developer' },
+    { property: 'og:title', content: 'About the Creator - Anti Brain Rot Games' },
+    { property: 'og:description', content: 'Meet Yazeed, Engineering Manager and creator of Anti Brain Rot Games free online puzzle games.' },
     { property: 'og:url', content: `${siteData.siteUrl}/about` },
     { property: 'og:type', content: 'profile' },
     { property: 'og:image', content: `${siteData.siteUrl}/profile.png` },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'About the Creator - Brain Busters' },
-    { name: 'twitter:description', content: 'Meet Muthukrishnan, Engineering Manager and creator of Brain Busters free online puzzle games.' }
+    { name: 'twitter:title', content: 'About the Creator - Anti Brain Rot Games' },
+    { name: 'twitter:description', content: 'Meet Yazeed, Engineering Manager and creator of Anti Brain Rot Games free online puzzle games.' }
   ],
   link: [
     { rel: 'canonical', href: `${siteData.siteUrl}/about` }
@@ -107,7 +107,7 @@ useHead({
         "@type": "ProfilePage",
         "mainEntity": {
           "@type": "Person",
-          "name": "Muthukrishnan",
+          "name": "Yazeed",
           "jobTitle": "Engineering Manager",
           "worksFor": {
             "@type": "Organization",
@@ -120,7 +120,7 @@ useHead({
             "https://linkedin.com/in/krimuthu",
             "https://github.com/muthuspark"
           ],
-          "description": "Engineering Manager with 16+ years experience in building scalable SaaS applications. Creator of Brain Busters puzzle games."
+          "description": "Engineering Manager with 16+ years experience in building scalable SaaS applications. Creator of Anti Brain Rot Games puzzle games."
         }
       })
     }

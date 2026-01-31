@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
     <div class="container">
-      <router-link class="navbar-brand d-flex align-items-center" to="/" aria-label="Brain Busters - Home">
-        <span class="brand-text">Brain Busters</span>
+      <router-link class="navbar-brand d-flex align-items-center" to="/" aria-label="Anti Brain Rot Games - Home">
+        <span class="brand-text">Anti Brain Rot Games</span>
       </router-link>
       <button
         class="navbar-toggler"

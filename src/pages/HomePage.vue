@@ -94,15 +94,15 @@ const faqs = [
 
 // SEO Head configuration
 useHead({
-  title: 'Brain Busters - Free Online Puzzle Games | Sudoku, Minesweeper & More',
+  title: 'Anti Brain Rot Games - Free Online Puzzle Games | Sudoku, Minesweeper & More',
   meta: [
     { name: 'description', content: siteData.description },
     { name: 'keywords', content: 'puzzle games, brain games, sudoku, minesweeper, tic tac toe, connect 4, word search, logic games, free online games' },
-    { property: 'og:title', content: 'Brain Busters - Free Online Puzzle Games' },
+    { property: 'og:title', content: 'Anti Brain Rot Games - Free Online Puzzle Games' },
     { property: 'og:description', content: siteData.description },
     { property: 'og:url', content: siteData.siteUrl },
     { property: 'og:type', content: 'website' },
-    { name: 'twitter:title', content: 'Brain Busters - Free Online Puzzle Games' },
+    { name: 'twitter:title', content: 'Anti Brain Rot Games - Free Online Puzzle Games' },
     { name: 'twitter:description', content: siteData.description }
   ],
   link: [
@@ -114,7 +114,7 @@ useHead({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Brain Busters - Free Online Puzzle Games",
+        "name": "Anti Brain Rot Games - Free Online Puzzle Games",
         "description": siteData.description,
         "url": siteData.siteUrl,
         "mainEntity": {
