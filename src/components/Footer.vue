@@ -4,7 +4,39 @@
       <div class="row align-items-center">
         <div class="col-md-6 text-center text-md-start">
           <p class="mb-2 mb-md-0">
-            &copy; {{ currentYear }} <a href="/about">Muthukrishnan</a>
+            &copy; {{ currentYear }} <a href="/about">Yazeed</a>
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <nav aria-label="Footer navigation" class="footer-nav">
+            <router-link to="/">Games</router-link>
+            <router-link to="/about">About</router-link>
+            
+              href="https://github.com/diptych-byte/memory-match-game"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View source code on GitHub"
+            >
+              Source
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col text-center">
+          <p class="text-muted mb-0" style="font-size: 0.7rem;">
+            Original games by <a href="https://github.com/muthuspark/javascript-games" target="_blank" rel="noopener">Muthukrishnan</a> (MIT License)
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>  <footer class="footer mt-auto py-4" role="contentinfo">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-2 mb-md-0">
+            &copy; {{ currentYear }} <a href="/about">Yazeed</a>
           </p>
         </div>
         <div class="col-md-6 text-center text-md-end">
